@@ -4,104 +4,58 @@ The goal of this project is to build a Reinforcement Learning (RL) agent capable
 
 Objectives
 Develop a Reinforcement Learning agent capable of playing Tic-Tac-Toe or Connect 4 from scratch.
-
-
 Train the agent using a reward system to guide its decision-making process.
-
-
 Optimize the agent's performance over time, starting with random moves and progressively improving.
-
-
 Create a web or terminal-based interface where the agent plays against itself or a human player.
-
-
 Document the entire process and provide insights into model performance, reward structure, and training techniques.
-
 
 
 Key Features
 Game Environment:
 
-
-Choose between Tic-Tac-Toe or Connect 4.
-
-
+Choose Connect 4.
 The agent will interact with the environment through state representations (e.g., board configurations).
-
-
 Reinforcement Learning Algorithm:
-
-
 Implement Q-learning or Deep Q-Networks (DQN) to optimize the agent’s strategy.
-
-
 Define a reward function based on game outcomes: win = +1, loss = -1, and draw = 0.
-
 
 Training Process:
 
-
 The agent will train through trial-and-error over numerous game iterations.
-
-
 Exploration vs. exploitation: The agent will balance exploring new moves and exploiting known strategies.
-
 
 Performance Monitoring:
 
-
 Track and visualize the agent’s improvement over time using metrics such as win rate, reward accumulation, and action selections.
 
-
-User Interface (Optional):
-
+User Interface:
 
 Provide an option to play the game against the agent, either via command-line interface (CLI) or a web interface.
 
-
 Logging & Documentation:
 
-
 Record a demo showing the agent's learning progression.
-
-
 Publish a GitHub repository with code, documentation, and training results.
-
-
 
 Technologies to Use
 Programming Language: Python
 
-
 Libraries/Frameworks:
 
-
 TensorFlow or PyTorch (for deep reinforcement learning and DQN model)
-
-
 OpenAI Gym (for implementing the Tic-Tac-Toe or Connect 4 environment)
-
-
 NumPy (for numerical operations and handling game state data)
-
-
 Matplotlib (for visualizing training results and agent performance)
-
 
 Tools:
 
-
 Jupyter Notebooks or PyCharm for interactive development and debugging.
-
-
 GitHub for code repository and version control.
-
 
 Optional:
 
 
 Flask/Django (for web interface development if choosing a web-based interface)
-
 
 
 Step-by-Step Implementation
