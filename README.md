@@ -16,6 +16,12 @@ source venv/Scripts/activate  # On Windows
 pip install -r requirements.txt
 ```
 
+3. Train your first agent:
+```bash
+python src/training/train_agent.py
+```
+This creates a trained model in `models/q_learning_agent.pkl` (takes ~20 minutes).
+
 ## Project Structure
 
 ```
