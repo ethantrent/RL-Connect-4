@@ -30,7 +30,9 @@ docs/                    # Documentation
 
 ## Usage
 
-Run the training script:
+### Basic Usage
+
+Train a new agent:
 ```bash
 python src/training/train_agent.py
 ```
@@ -38,4 +40,30 @@ python src/training/train_agent.py
 Play against the trained agent:
 ```bash
 python src/ui/play_game.py
+```
+
+### Advanced Tools
+
+**Performance Benchmarking:**
+```bash
+python benchmark_agent.py                    # Comprehensive performance analysis
+python performance_dashboard.py --mode check # Quick health check
+python performance_dashboard.py --mode benchmark # Detailed benchmark
+```
+
+**Model Comparison:**
+```bash
+python compare_models.py                     # Compare multiple trained models
+```
+
+**Real-time Monitoring:**
+```bash
+python performance_dashboard.py --mode monitor --interval 30
+```
+
+**Testing:**
+```bash
+cd tests && python run_tests.py              # Run all 62 tests
+python quick_eval.py                         # Quick agent evaluation
+python test_trained_agent.py                 # Detailed agent testing
 ```
